@@ -56,7 +56,7 @@ Restart is required after the installation is finished. Then, check whether `isg
 
 SGXDedup is configured based on JSON. You can change its configuration without rebuilding. We show the default configuration (`./config.json`) of SGXDedup as follows.
 
-```json
+```
 {
     "ChunkerConfig": {
         "_chunkingType": 1, // 0: fixed size chunking; 1: variable size chunking; 2: FSL dataset hash list; 3: MS dataset hash list
@@ -126,7 +126,7 @@ SGXDedup is configured based on JSON. You can change its configuration without r
 
 Before starting, you need to fill the SPID and subscription keys in `./config.json` based on your registration information in Intel.
 
-```json
+```
 ...
 "pow": {
     ...
